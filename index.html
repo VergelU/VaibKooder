@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibe Coder — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Spline+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="scroll-progress" aria-hidden="true"><span class="scroll-progress__bar"></span></div>
+    <a class="logo" href="#top">Vibe Coder</a>
+    <nav class="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Умения</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="header-cta" href="#contact">Написать</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__visual" aria-hidden="true">
+        <img
+          class="hero__photo"
+          src="hero.png"
+          alt=""
+          width="1600"
+          height="900"
+          fetchpriority="high"
+        />
+        <div class="hero__overlay"></div>
+        <div class="hero__slash"></div>
+        <div class="hero__frame"></div>
+        <div class="hero__accent-bar"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__label reveal">
+          <span class="hero__dot"></span>
+          Vibe Coder / Portfolio / Web &amp; AI Experiences
+        </p>
+        <h1 class="hero__brand split-words" data-split="words">Vibe Coder</h1>
+        <p class="hero__title split-words" data-split="words">
+          Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как вайб, а работают как система
+        </p>
+        <p class="hero__lead reveal reveal-delay-3">
+          Не просто «что-то сверстать», а собрать ощущение, стиль, логику и подачу так, чтобы проект хотелось открыть, листать и запомнить.
+        </p>
+        <div class="hero__actions reveal reveal-delay-4">
+          <a class="btn btn--primary" href="#projects">Посмотреть проекты</a>
+          <a class="btn btn--ghost" href="#contact">Обсудить задачу</a>
+        </div>
+      </div>
+      <p class="hero__scroll reveal reveal-delay-4" aria-hidden="true">scroll</p>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">01</span>
+          <h2 class="section__title reveal">Я не просто пишу код — я собираю впечатление</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              Я работаю на стыке кода, визуала, UX и AI-инструментов.
+              Для меня сайт — это не набор блоков. Это ощущение от проекта,
+              ритм, подача, структура и то, как человек чувствует себя внутри интерфейса.
+            </p>
+            <p class="about__approach">
+              Мой подход — сделать быстро, красиво и не бездумно.
+              Чтобы проект не выглядел как очередной шаблон, собранный без вкуса и идеи.
+            </p>
+          </div>
+          <div class="about__aside reveal">
+            <p class="about__aside-label">Я делаю</p>
+            <ul class="about__list">
+              <li>лендинги</li>
+              <li>портфолио</li>
+              <li>промо-страницы</li>
+              <li>интерфейсы</li>
+              <li>спецпроекты</li>
+              <li>digital-концепты</li>
+              <li>AI-first сайты и продукты</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">02</span>
+          <h2 class="section__title reveal">Что я делаю</h2>
+        </div>
+        <div class="skills__grid">
+          <article class="skill skill--wide reveal">
+            <span class="skill__num">01</span>
+            <h3>Лендинги</h3>
+            <p>Сайты, которые не просто «есть», а собирают внимание, держат ритм и ведут человека по смыслу.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">02</span>
+            <h3>Портфолио и личные сайты</h3>
+            <p>Страницы, которые показывают не только работы, но и стиль, характер и уровень.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">03</span>
+            <h3>Визуальные концепты</h3>
+            <p>Когда нужен не просто сайт, а ощущение: атмосфера, характер, настроение, подача.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">04</span>
+            <h3>AI + Web</h3>
+            <p>Использую нейросети как инструмент ускорения и усиления идей, а не как замену мышлению.</p>
+          </article>
+          <article class="skill skill--wide reveal">
+            <span class="skill__num">05</span>
+            <h3>UX и структура</h3>
+            <p>Продумываю, как человек читает, куда смотрит, где теряется и где принимает решение.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">06</span>
+            <h3>Быстрый запуск</h3>
+            <p>Могу собрать сильную первую версию быстро, без месяцев бесконечных согласований.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approach" id="approach">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">03</span>
+          <h2 class="section__title reveal">Как я работаю</h2>
+        </div>
+        <ol class="approach__list">
+          <li class="approach__item reveal">
+            <span class="approach__num" aria-hidden="true">01</span>
+            <div class="approach__body">
+              <h3>Сначала вайб</h3>
+              <p>Я смотрю не только на задачу, но и на ощущение, которое должен передавать проект.</p>
+            </div>
+          </li>
+          <li class="approach__item reveal">
+            <span class="approach__num" aria-hidden="true">02</span>
+            <div class="approach__body">
+              <h3>Потом структура</h3>
+              <p>Красивый сайт без логики — это просто красивая обёртка. Поэтому я собираю смысл, сценарий и путь пользователя.</p>
+            </div>
+          </li>
+          <li class="approach__item reveal">
+            <span class="approach__num" aria-hidden="true">03</span>
+            <div class="approach__body">
+              <h3>Потом реализация</h3>
+              <p>Когда есть стиль и логика, проект собирается быстрее, точнее и выглядит сильно.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">04</span>
+          <h2 class="section__title reveal">Избранные проекты</h2>
+        </div>
+        <div class="projects__list">
+          <a class="project" href="#contact">
+            <span class="project__index">01</span>
+            <div class="project__body">
+              <h3>AI Landing Experience</h3>
+              <p>Лендинг для digital-продукта с акцентом на атмосферу, скорость восприятия и современный визуал.</p>
+              <p class="project__meta">Структура · тексты · дизайн-концепция · сборка</p>
+            </div>
+            <span class="project__arrow" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 14h16M14 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+          </a>
+          <a class="project" href="#contact">
+            <span class="project__index">02</span>
+            <div class="project__body">
+              <h3>Portfolio for Creative Expert</h3>
+              <p>Личный сайт-портфолио, который показывает не только кейсы, но и стиль человека.</p>
+              <p class="project__meta">Позиционирование · подача · визуальный ритм · упаковка работ</p>
+            </div>
+            <span class="project__arrow" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 14h16M14 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+          </a>
+          <a class="project" href="#contact">
+            <span class="project__index">03</span>
+            <div class="project__body">
+              <h3>Bot &amp; Funnel Page</h3>
+              <p>Промо-страница под воронку и digital-продукт с акцентом на конверсию и лёгкость восприятия.</p>
+              <p class="project__meta">Логика блоков · тексты · CTA · визуальный каркас</p>
+            </div>
+            <span class="project__arrow" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 14h16M14 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+          </a>
+          <a class="project" href="#contact">
+            <span class="project__index">04</span>
+            <div class="project__body">
+              <h3>Concept Site for AI Creator</h3>
+              <p>Сайт с упором на трендовую подачу, сильный первый экран и ощущение «это хочется переслать».</p>
+              <p class="project__meta">Creative direction · структура · визуальная концепция</p>
+            </div>
+            <span class="project__arrow" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 14h16M14 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="why">
+      <div class="section__inner why__layout">
+        <div class="section__head">
+          <span class="section__index reveal">05</span>
+          <h2 class="section__title reveal">Почему ко мне идут не просто за кодом</h2>
+        </div>
+        <div class="why__content reveal">
+          <p class="why__lead">Потому что я умею видеть проект целиком.</p>
+          <div class="why__cols">
+            <div class="why__col">
+              <p class="why__label">Не только</p>
+              <ul>
+                <li>как это собрать</li>
+              </ul>
+            </div>
+            <div class="why__col why__col--accent">
+              <p class="why__label">но и</p>
+              <ul>
+                <li>как это подать</li>
+                <li>как это будет восприниматься</li>
+                <li>где человек зацепится взглядом</li>
+                <li>что запомнит</li>
+                <li>почему это будет выглядеть дороже, чем стоит</li>
+              </ul>
+            </div>
+          </div>
+          <p class="why__formula">
+            Я соединяю
+            <span>эстетику + структуру + digital-мышление + скорость</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section__inner">
+        <div class="section__head section__head--row">
+          <span class="section__index reveal">06</span>
+          <h2 class="section__title reveal">Инструменты</h2>
+        </div>
+        <ul class="stack__list reveal">
+          <li>ChatGPT</li>
+          <li>Cursor</li>
+          <li>HTML / CSS / JS</li>
+          <li>React</li>
+          <li>Tailwind</li>
+          <li>Framer Motion</li>
+          <li>Figma</li>
+          <li>Tilda / Webflow / custom</li>
+          <li>Telegram / Bots / AI tools</li>
+        </ul>
+        <p class="stack__note reveal">
+          Но если честно — главный инструмент не стек, а вкус, насмотренность и умение собирать цельное впечатление.
+        </p>
+      </div>
+    </section>
+
+    <section class="section audience" id="audience">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">07</span>
+          <h2 class="section__title reveal">Кому подойдёт моя работа</h2>
+        </div>
+        <ul class="audience__list reveal">
+          <li>экспертам</li>
+          <li>креаторам</li>
+          <li>digital-проектам</li>
+          <li>AI-продуктам</li>
+          <li>студиям</li>
+          <li>тем, кому нужен сайт с характером</li>
+          <li>тем, кто не хочет шаблонную безликую страницу</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto__slash" aria-hidden="true"></div>
+      <div class="section__inner">
+        <blockquote class="manifesto__quote">
+          <span class="manifesto__line">Хороший сайт — это не когда «нормально сверстано».</span>
+          <span class="manifesto__line">Это когда у проекта появляется энергия, форма и ощущение, что он живой.</span>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section cta" id="cta">
+      <div class="section__inner cta__panel">
+        <h2 class="section__title reveal">
+          Если тебе нужен сайт, который выглядит сильно и ощущается современно — давай соберём
+        </h2>
+        <p class="cta__text reveal">
+          Могу помочь с концепцией, структурой, упаковкой и реализацией.
+          От первого вайба до готовой страницы.
+        </p>
+        <div class="cta__actions reveal">
+          <a class="btn btn--primary" href="#contact">Написать мне</a>
+          <a class="btn btn--ghost" href="#projects">Посмотреть работы</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section__inner">
+        <div class="section__head">
+          <span class="section__index reveal">08</span>
+          <h2 class="section__title reveal">Контакты</h2>
+        </div>
+        <div class="contact__grid reveal">
+          <a class="contact__main" href="https://t.me/yourname" target="_blank" rel="noopener">
+            <span class="contact__kind">Telegram</span>
+            <span class="contact__value">@yourname</span>
+          </a>
+          <a class="contact__main" href="mailto:hello@yourmail.com">
+            <span class="contact__kind">Email</span>
+            <span class="contact__value">hello@yourmail.com</span>
+          </a>
+        </div>
+        <ul class="contact__socials reveal">
+          <li><a href="#" target="_blank" rel="noopener">Behance</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Dribbble</a></li>
+          <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Notion</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Vibe Coder</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* —— 1. Hero word cascade —— */
+    function splitWords(el) {
+      const text = el.textContent.trim().replace(/\s+/g, ' ');
+      el.setAttribute('aria-label', text);
+      el.textContent = '';
+      text.split(' ').forEach((word, i) => {
+        const wrap = document.createElement('span');
+        wrap.className = 'word-wrap';
+        const inner = document.createElement('span');
+        inner.className = 'word';
+        inner.style.setProperty('--i', i);
+        inner.textContent = word;
+        wrap.appendChild(inner);
+        el.appendChild(wrap);
+        el.appendChild(document.createTextNode(' '));
+      });
+    }
+
+    document.querySelectorAll('[data-split="words"]').forEach(splitWords);
+
+    /* —— Reveal on scroll —— */
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    reveals.forEach((el, i) => {
+      if (!el.closest('.hero')) {
+        el.style.transitionDelay = `${Math.min(i % 6, 5) * 0.07}s`;
+      }
+      observer.observe(el);
+    });
+
+    /* —— Projects stagger reveal —— */
+    const projectItems = document.querySelectorAll('.project');
+    const projectObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const list = [...projectItems];
+            list.forEach((item, i) => {
+              item.style.setProperty('--stagger', `${i * 0.1}s`);
+              item.classList.add('is-visible');
+            });
+            projectObserver.disconnect();
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    if (projectItems[0]) projectObserver.observe(projectItems[0].parentElement);
+
+    /* —— Manifesto clip reveal —— */
+    const manifesto = document.querySelector('.manifesto');
+    const manifestoObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-inview');
+            manifestoObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.35 }
+    );
+    if (manifesto) manifestoObserver.observe(manifesto);
+
+    /* Hero load sequence */
+    requestAnimationFrame(() => {
+      document.querySelector('.hero')?.classList.add('is-ready');
+      document.querySelectorAll('.hero .reveal').forEach((el) => {
+        el.classList.add('is-visible');
+      });
+    });
+
+    /* —— 4. Projects: dim siblings on hover —— */
+    const projectsList = document.querySelector('.projects__list');
+    if (projectsList) {
+      projectsList.addEventListener('mouseover', (e) => {
+        const project = e.target.closest('.project');
+        if (!project) return;
+        projectsList.classList.add('is-hovering');
+        projectItems.forEach((item) => {
+          item.classList.toggle('is-active', item === project);
+          item.classList.toggle('is-dimmed', item !== project);
+        });
+      });
+      projectsList.addEventListener('mouseleave', () => {
+        projectsList.classList.remove('is-hovering');
+        projectItems.forEach((item) => {
+          item.classList.remove('is-active', 'is-dimmed');
+        });
+      });
+    }
+
+    /* —— 2. Parallax + 7. Scroll progress —— */
+    const header = document.querySelector('.site-header');
+    const progressBar = document.querySelector('.scroll-progress__bar');
+    const heroPhoto = document.querySelector('.hero__photo');
+    const heroContent = document.querySelector('.hero__content');
+    const heroSection = document.querySelector('.hero');
+    let ticking = false;
+
+    function onScroll() {
+      const y = window.scrollY;
+      const docH = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docH > 0 ? Math.min(y / docH, 1) : 0;
+
+      header.classList.toggle('is-scrolled', y > 40);
+      if (progressBar) progressBar.style.transform = `scaleX(${progress})`;
+
+      if (!reduceMotion && heroSection && y < heroSection.offsetHeight) {
+        const p = y * 0.35;
+        if (heroPhoto) {
+          heroPhoto.style.translate = `0 ${p * 0.55}px`;
+        }
+        if (heroContent) {
+          heroContent.style.translate = `0 ${p * -0.22}px`;
+          heroContent.style.opacity = String(Math.max(1 - y / (heroSection.offsetHeight * 0.85), 0));
+        }
+      }
+
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(onScroll);
+        ticking = true;
+      }
+    }, { passive: true });
+
+    onScroll();
+  </script>
+</body>
+</html>
